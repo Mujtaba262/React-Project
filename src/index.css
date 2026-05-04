@@ -79,6 +79,9 @@ nav {
   padding: 10px 14px;
   border-radius: 999px;
   transition: all 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .nav-link:hover {
@@ -86,10 +89,16 @@ nav {
   color: #0f172a;
 }
 
+.nav-icon {
+  font-size: 1.1rem;
+  display: inline-block;
+}
+
 .nav-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 8px;
   padding: 11px 24px;
   border-radius: 999px;
   font-weight: 700;
